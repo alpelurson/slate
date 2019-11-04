@@ -6,6 +6,8 @@ Some of those changes may trigger some regressions and we are aware. This is why
 
 If waiting for the pull requests to be merged is not for you, please try the `druide-slate-react` package!
 
+To stay in sync with the Slate version number, we use rc numbers. The latest version is `0.22.9-rc.2`.
+
 ----
 
 <p align="center">
