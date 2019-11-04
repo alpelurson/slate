@@ -1,3 +1,13 @@
+# This Is A Fork
+
+Yes, this is the fork Druide Informatique uses internally. We started it to better Slate's Android support. All changes in this repository's `slate-react` package has a pull request associated.
+
+Some of those changes may trigger some regressions and we are aware. This is why not all changes has been merged.
+
+If waiting for the pull requests to be merged is not for you, please try the `druide-slate-react` package!
+
+----
+
 <p align="center">
   <a href="#"><img src="./docs/images/banner.png" /></a>
 </p>
