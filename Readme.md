@@ -1,12 +1,16 @@
 # This Is A Fork
 
-Yes, this is the fork Druide Informatique uses internally. We started it to better Slate's Android support. All changes in this repository's `slate-react` package has a pull request associated.
+Yes, this is the fork Druide Informatique uses internally. We started it to better Slate's Android support. All relevant changes in this repository's `slate-react` package has a pull request associated.
 
 Some of those changes may trigger some regressions and we are aware. This is why not all changes has been merged.
 
 If waiting for the pull requests to be merged is not for you, please try the `druide-slate-react` package!
 
-To stay in sync with the Slate version number, we use rc numbers. The latest version is `0.22.9-rc.2`.
+To stay in sync with the Slate version number, we use rc numbers. The latest version is `0.22.9-rc.3`.
+
+Other changes not included in a pull request yet:
+
+ - Added a query to check if a composition has pending changes not committed to Slate's value ([fa59febd](https://github.com/DruideInformatiqueInc/slate/commit/fa59febd78e5d433ee586807a9ed8b25a5895314))
 
 ----
 
