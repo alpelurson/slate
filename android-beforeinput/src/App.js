@@ -1,7 +1,7 @@
 import React, {useState, useCallback, useRef} from "react";
 import {Editor} from "druide-slate-react";
 import {Range, Value, Document, Point, Block, Text} from "slate";
-import ModelEditor from "./BeforeEditor";
+import BeforeInputEditor from "./before-input-editor";
 import documents from "./Documents";
 
 const level = 2;
@@ -231,7 +231,7 @@ function TextEditorPanel() {
 		<>
 			<div className="parent">
 				<h3>ContentEditable Vanille</h3>
-				<ModelEditor key={reactKey} editor={editor} keyStart={keyStart} commandStream={commandStream} initialValue={vanilla}/>
+				<BeforeInputEditor key={reactKey} editor={editor} keyStart={keyStart} commandStream={commandStream} initialValue={vanilla}/>
 			</div>
 			<div className="parent">
 				<h3>Editeur Slate</h3>
