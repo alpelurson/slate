@@ -9,10 +9,11 @@ import { List } from 'immutable'
 import {
   IS_ANDROID,
   IS_FIREFOX,
-  IS_CHROME
+  IS_CHROME,
+  IS_IOS
 } from 'slate-dev-environment'
 import { 
-  HAS_INPUT_EVENTS_LEVEL as HAS_INPUT_EVENTS_LEVEL_2_SLATE
+  HAS_INPUT_EVENTS_LEVEL2 as HAS_INPUT_EVENTS_LEVEL_2_SLATE
 } from 'slate-dev-environment';
 import Hotkeys from 'slate-hotkeys'
 
@@ -26,7 +27,7 @@ import removeAllRanges from '../utils/remove-all-ranges'
 const FIREFOX_NODE_TYPE_ACCESS_ERROR = /Permission denied to access property "nodeType"/
 
 let HAS_INPUT_EVENTS_LEVEL_2;
-if(IS_FIREFOX || IS_CHROME){
+if(!IS_IOS && (IS_FIREFOX || IS_CHROME)){
   HAS_INPUT_EVENTS_LEVEL_2 = false;
 } else {
   HAS_INPUT_EVENTS_LEVEL_2 = HAS_INPUT_EVENTS_LEVEL_2_SLATE;
