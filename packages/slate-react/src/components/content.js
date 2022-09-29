@@ -13,7 +13,7 @@ import {
   IS_MAC
 } from 'slate-dev-environment'
 import { 
-  HAS_INPUT_EVENTS_LEVEL2 as HAS_INPUT_EVENTS_LEVEL_2_SLATE
+  HAS_INPUT_EVENTS_LEVEL_2 as HAS_INPUT_EVENTS_LEVEL_2_SLATE
 } from 'slate-dev-environment';
 import Hotkeys from 'slate-hotkeys'
 
