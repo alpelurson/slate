@@ -7,12 +7,12 @@ import {
   IS_IOS,
   IS_CHROME,
 } from 'slate-dev-environment'
-import { HAS_INPUT_EVENTS_LEVEL as HAS_INPUT_EVENTS_LEVEL_2_SLATE} from 'slate-dev-environment';
+import { HAS_INPUT_EVENTS_LEVEL2 as HAS_INPUT_EVENTS_LEVEL_2_SLATE} from 'slate-dev-environment';
 
 import DATA_ATTRS from '../../constants/data-attributes'
 
 let HAS_INPUT_EVENTS_LEVEL_2;
-if(IS_FIREFOX || IS_CHROME){
+if(!IS_IOS && (IS_FIREFOX || IS_CHROME)){
   HAS_INPUT_EVENTS_LEVEL_2 = false;
 } else {
   HAS_INPUT_EVENTS_LEVEL_2 = HAS_INPUT_EVENTS_LEVEL_2_SLATE;
